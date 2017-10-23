@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title><?php echo $title; ?></title>
+        <link rel="stylesheet" type="text/css" href="Styles/Stylesheet.css" />
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="banner">
+            </div>
+            
+            <nav id="menu">
+                <ul id="nav">
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="##">Calories</a></li>
+                    <li><a href="##">Fitness</a></li>
+                    <li><a href="##">Health</a></li>
+                    <li><a href="##"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </body>
+</html>
