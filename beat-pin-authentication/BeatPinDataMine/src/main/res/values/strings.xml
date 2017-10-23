@@ -1,0 +1,48 @@
+<resources>
+    <string-array name="status_array"
+        layout_width="wrap_content"
+        layout_height="wrap_content">
+        <item
+            layout_width="wrap_content"
+            layout_height="wrap_content">Setup</item>
+        <item
+            layout_width="wrap_content"
+            layout_height="wrap_content">SlowWalk</item>
+        <item
+            layout_width="wrap_content"
+            layout_height="wrap_content">Sitting</item>
+        <item
+            layout_width="wrap_content"
+            layout_height="wrap_content">FastWalk</item>
+    </string-array>
+    <string-array name="devices_array"
+        layout_width="wrap_content"
+        layout_height="wrap_content">
+        <item
+            layout_width="wrap_content"
+            layout_height="wrap_content">Huawei Honor</item>
+        <item
+            layout_width="wrap_content"
+            layout_height="wrap_content">Galaxy Tab S</item>
+        <item
+            layout_width="wrap_content"
+            layout_height="wrap_content">LG L15G</item>
+        <item
+            layout_width="wrap_content"
+            layout_height="wrap_content">Samsung Galaxy S2</item>
+        <item
+            layout_width="wrap_content"
+            layout_height="wrap_content">Nexus 4</item>
+        <item
+            layout_width="wrap_content"
+            layout_height="wrap_content">Moto G</item>
+    </string-array>
+    <string name="app_name">BeatPIN Data Mine</string>
+    <string name="action_settings">Settings</string>
+    <string name="machines_and_factories">Machines and Factories</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="press_for_beats">Press for Beats</string>
+    <string name="end_button">Next</string>
+    <string name="beg_button">New BeatPIN</string>
+</resources>

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">BeatPinReader</string>
+    <string-array name="stringArrayStatus"
+        layout_width="wrap_content"
+        layout_height="wrap_content">
+        <item
+            layout_width="wrap_content"
+            layout_height="wrap_content">Setup</item>
+        <item
+            layout_width="wrap_content"
+            layout_height="wrap_content">SlowWalk</item>
+        <item
+            layout_width="wrap_content"
+            layout_height="wrap_content">Sitting</item>
+        <item
+            layout_width="wrap_content"
+            layout_height="wrap_content">FastWalk</item>
+    </string-array>
+    <string-array name="stringArrayDevice"
+        layout_width="wrap_content"
+        layout_height="wrap_content">
+        <item
+            layout_width="wrap_content"
+            layout_height="wrap_content">Huawei Honor</item>
+        <item
+            layout_width="wrap_content"
+            layout_height="wrap_content">Moto G</item>
+        <item
+            layout_width="wrap_content"
+            layout_height="wrap_content">Nexus 4</item>
+        <item
+            layout_width="wrap_content"
+            layout_height="wrap_content">Nexus 5X</item>
+        <item
+            layout_width="wrap_content"
+            layout_height="wrap_content">Galaxy Tab S</item>
+        <item
+            layout_width="wrap_content"
+            layout_height="wrap_content">LG L15G</item>
+        <item
+            layout_width="wrap_content"
+            layout_height="wrap_content">Galaxy S2</item>
+    </string-array>
+    <string name="beat">Beat</string>
+    <string name="newPin">New BeatPin</string>
+    <string name="retry">Retry</string>
+    <string name="next">Next</string>
+    <string name="status">Status</string>
+</resources>

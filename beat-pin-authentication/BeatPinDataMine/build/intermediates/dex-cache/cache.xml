@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/michaelzhou/AndroidStudioProjects/BeatPINDataMine/opencsv-3.9/opencsv-3.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="01e0df53c5ef2431f072d1da3fd31bea9da5b529">
+        <dex dex="/Users/michaelzhou/AndroidStudioProjects/BeatPINDataMine/app/build/intermediates/pre-dexed/debug/opencsv-3.9_b33da3c721263e8f9f407582cbe9f4efce400061.jar" />
+    </item>
+
+</items>
