@@ -1,0 +1,36 @@
+/*******************************************************************************
+ *  Name:    Michael Zhou
+ *  NetID:   myzhou
+ *  Precept: P05
+ *
+ *  Partner Name:    N/A
+ *  Partner NetID:   N/A
+ *  Partner Precept: N/A
+ * 
+ *  Description:  This TOY program will read in a set of four separate bits from 
+ *                standard input and encode them in a binary message. The bits
+ *                will be repeatedly read from TOY standard input and used to 
+ *                calculate three parity bits for Hamming code correction 
+ * 
+ ******************************************************************************/
+    
+10: 81FF read R[1] from stdin
+    [Check R[1] is not FFFF] if it is, jump to 2F
+11: 82FF read R[2] from stdin
+12: 83FF read R[3] from stdin
+13: 84FF read R[4] from stdin
+14: 4712 R[7] <- R[1] ^ R[2]
+15: 4A74 R[A] <- R[7] ^ R[4]
+16: 4813 R[8] <- R[1] ^ R[3]
+17: 4B84 R[B] <- R[8] ^ R[4]    
+18: 4923 R[9] <- R[2] ^ R[3]
+19: 4C94 R[C] <- R[9] ^ R[4]
+1A: 91FF write R[1] to stdout
+1B: 92FF write R[2] to stdout
+1C: 93FF write R[3] to stdout
+1D: 94FF write R[4] to stdout 
+1E: 9AFF write R[A] to stdout
+1F: 9BFF write R[B] to stdout
+20: 9CFF write R[C] to stdout
+21: C010 if (R[0] == 0) PC <- 10
+2F: 0000

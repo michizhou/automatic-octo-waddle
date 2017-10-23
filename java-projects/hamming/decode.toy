@@ -1,0 +1,67 @@
+/*******************************************************************************
+ *  Name:    Michael Zhou
+ *  NetID:   myzhou
+ *  Precept: P05
+ *
+ *  Partner Name:    N/A
+ *  Partner NetID:   N/A
+ *  Partner Precept: N/A
+ * 
+ *  Description:  This TOY program will correct a Hamming encoded message. It 
+ *                will repeatedly read seven bits from the TOY standard input,
+ *                with the first four being the original bits and the last 
+ *                three being the parity bits, and write four bits to standard 
+ *                output for TOY. To determine if any of the message bits is at
+ *                all corrupted, and if so which one, parity checks will be 
+ *                performed between the parity bits and sets of the message bits
+ *                If zero or one of the checks fails, all four message bits will
+ *                be deemed correct. If checks 1 and 2 fail, but not check 3, the
+ *                first message bit will be flipped in binary. If checks 1 and 3 
+ *                fail, but not check 2, then the second message bit is flipped. 
+ *                If checks 2 and 3 fail, but not check 1, then the third message
+ *                bit will be flipped. If all three checks fail, then the fourth
+ *                message bit will be flipped. After flipping the corrupted bit
+ *                (if needed), all message bits are written to standard output.
+ *                The program will then repeat this process for the next set of
+ *                seven bits it reads or terminate if there is no more standard
+ *                input left to read in.
+ * 
+ ******************************************************************************/
+    10: 7501 R[5] <- 0001          // Sets value of 0001 in a default register
+    11: 81FF read R[1] from stdin  // Reads in first message bit
+    12: 1651 R[6] <- R[5] + R[1]   // Testing if first message bit is negative
+    13: C635 if (R[6] == 0) PC <- 35    // If negative, terminate the program
+    14: 82FF read R[2] from stdin  // Taking in rest of bits from standard input
+    15: 83FF read R[3] from stdin
+    16: 84FF read R[4] from stdin
+    17: 87FF read R[7] from stdin
+    18: 88FF read R[8] from stdin
+    19: 89FF read R[9] from stdin
+    1A: 4A71 R[A] <- R[7] ^ R[1]  // Calculating parity check for first, second,  
+    1B: 4AA2 R[A] <- R[A] ^ R[2]  // and fourth message bits
+    1C: 4AA4 R[A] <- R[A] ^ R[4]
+    1D: 4B81 R[B] <- R[8] ^ R[1]  // Calculating parity check for first, third,
+    1E: 4BB3 R[B] <- R[B] ^ R[3]  // and fourth message bits
+    1F: 4BB4 R[B] <- R[B] ^ R[4]
+    20: 4C92 R[C] <- R[9] ^ R[2]  // Calculating parity check for second, third,
+    21: 4CC3 R[C] <- R[C] ^ R[3]  // and fourth message bits
+    22: 4CC4 R[C] <- R[C] ^ R[4]
+    23: 37AB R[7] <- R[A] & R[B]  // Registers for storing values of conditionals
+    24: 38AC R[8] <- R[A] & R[C]  // that change based on which parity checks fail
+    25: 39BC R[9] <- R[B] & R[C]
+    26: 3D79 R[D] <- R[7] & R[9]
+    27: CD2A if (R[D] == 0) PC <- 2A  // Conditionals for parity check fails that
+    28: 4454 R[4] <- R[5] ^ R[4]      // flips specific message bits based on 
+    29: DD30 if (R[D] > 0) PC <- 30   // which, if any, checks failed
+    2A: C72C if (R[7] == 0) PC <- 2C
+    2B: 4151 R[1] <- R[5] ^ R[1]      // If certain groups of parity checks are
+    2C: C82E if (R[8] == 0) PC <- 2E  // correct, move on to the next conditions
+    2D: 4252 R[2] <- R[5] ^ R[2]
+    2E: C930 if (R[9] == 0) PC <- 30
+    2F: 4353 R[3] <- R[5] ^ R[3] 
+    30: 91FF write R[1] to stdout  // Writing out message bits to standard output
+    31: 92FF write R[2] to stdout
+    32: 93FF write R[3] to stdout
+    33: 94FF write R[4] to stdout 
+    34: C010 if (R[0] == 0) PC <- 10    // Loops back to line 10 to read in new bits
+    35: 0000 halt    
