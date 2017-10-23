@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12C4E4D51DD83B3F00E93522 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C4E4D41DD83B3F00E93522 /* AppDelegate.swift */; };
+		12C4E4D71DD83B3F00E93522 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C4E4D61DD83B3F00E93522 /* ViewController.swift */; };
+		12C4E4DA1DD83B3F00E93522 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12C4E4D81DD83B3F00E93522 /* Main.storyboard */; };
+		12C4E4DD1DD83B3F00E93522 /* Rondeh.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12C4E4DB1DD83B3F00E93522 /* Rondeh.xcdatamodeld */; };
+		12C4E4DF1DD83B4000E93522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12C4E4DE1DD83B4000E93522 /* Assets.xcassets */; };
+		12C4E4E21DD83B4000E93522 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12C4E4E01DD83B4000E93522 /* LaunchScreen.storyboard */; };
+		12C4E4ED1DD83B4000E93522 /* RondehTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C4E4EC1DD83B4000E93522 /* RondehTests.swift */; };
+		12C4E4F81DD83B4000E93522 /* RondehUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C4E4F71DD83B4000E93522 /* RondehUITests.swift */; };
+		34E34DCEBB01948F163F73E6 /* Pods_Rondeh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FB40C45B099A31FCD46695 /* Pods_Rondeh.framework */; };
+		62151E41F52917AB9FB9BACA /* Pods_RondehUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C961D742BE835E12611D313 /* Pods_RondehUITests.framework */; };
+		64A608CDD5BA5AEF7EC1D764 /* Pods_RondehTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6F4411BC399E4942C93948 /* Pods_RondehTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12C4E4E91DD83B4000E93522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12C4E4C91DD83B3F00E93522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12C4E4D01DD83B3F00E93522;
+			remoteInfo = Rondeh;
+		};
+		12C4E4F41DD83B4000E93522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12C4E4C91DD83B3F00E93522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12C4E4D01DD83B3F00E93522;
+			remoteInfo = Rondeh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F2A5A22AF631CA66F7ED031 /* Pods-RondehTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RondehTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RondehTests/Pods-RondehTests.debug.xcconfig"; sourceTree = "<group>"; };
+		12C4E4D11DD83B3F00E93522 /* Rondeh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rondeh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12C4E4D41DD83B3F00E93522 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12C4E4D61DD83B3F00E93522 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12C4E4D91DD83B3F00E93522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12C4E4DC1DD83B3F00E93522 /* Rondeh.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rondeh.xcdatamodel; sourceTree = "<group>"; };
+		12C4E4DE1DD83B4000E93522 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12C4E4E11DD83B4000E93522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12C4E4E31DD83B4000E93522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12C4E4E81DD83B4000E93522 /* RondehTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RondehTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12C4E4EC1DD83B4000E93522 /* RondehTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RondehTests.swift; sourceTree = "<group>"; };
+		12C4E4EE1DD83B4000E93522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12C4E4F31DD83B4000E93522 /* RondehUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RondehUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12C4E4F71DD83B4000E93522 /* RondehUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RondehUITests.swift; sourceTree = "<group>"; };
+		12C4E4F91DD83B4000E93522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35FB40C45B099A31FCD46695 /* Pods_Rondeh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rondeh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF0B5B905DDA7A0824FA8F1 /* Pods-Rondeh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rondeh.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rondeh/Pods-Rondeh.release.xcconfig"; sourceTree = "<group>"; };
+		5C6790A91B7D41F98F7A411B /* Pods-RondehTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RondehTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RondehTests/Pods-RondehTests.release.xcconfig"; sourceTree = "<group>"; };
+		5F6F4411BC399E4942C93948 /* Pods_RondehTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RondehTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		776405DB6152039AD79FEF8E /* Pods-RondehUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RondehUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RondehUITests/Pods-RondehUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8990C65FF23C85CEB6E37AFE /* Pods-Rondeh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rondeh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rondeh/Pods-Rondeh.debug.xcconfig"; sourceTree = "<group>"; };
+		8C961D742BE835E12611D313 /* Pods_RondehUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RondehUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97A09B2332BFC5AB68BA0B60 /* Pods-RondehUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RondehUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RondehUITests/Pods-RondehUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12C4E4CE1DD83B3F00E93522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E34DCEBB01948F163F73E6 /* Pods_Rondeh.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C4E4E51DD83B4000E93522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A608CDD5BA5AEF7EC1D764 /* Pods_RondehTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C4E4F01DD83B4000E93522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62151E41F52917AB9FB9BACA /* Pods_RondehUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12C4E4C81DD83B3F00E93522 = {
+			isa = PBXGroup;
+			children = (
+				12C4E4D31DD83B3F00E93522 /* Rondeh */,
+				12C4E4EB1DD83B4000E93522 /* RondehTests */,
+				12C4E4F61DD83B4000E93522 /* RondehUITests */,
+				12C4E4D21DD83B3F00E93522 /* Products */,
+				ABF446E915B2CCB3379B941F /* Pods */,
+				E5F8A6BE4E7B9DFBF0EA2DD8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		12C4E4D21DD83B3F00E93522 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12C4E4D11DD83B3F00E93522 /* Rondeh.app */,
+				12C4E4E81DD83B4000E93522 /* RondehTests.xctest */,
+				12C4E4F31DD83B4000E93522 /* RondehUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12C4E4D31DD83B3F00E93522 /* Rondeh */ = {
+			isa = PBXGroup;
+			children = (
+				12C4E4D41DD83B3F00E93522 /* AppDelegate.swift */,
+				12C4E4D61DD83B3F00E93522 /* ViewController.swift */,
+				12C4E4D81DD83B3F00E93522 /* Main.storyboard */,
+				12C4E4DE1DD83B4000E93522 /* Assets.xcassets */,
+				12C4E4E01DD83B4000E93522 /* LaunchScreen.storyboard */,
+				12C4E4E31DD83B4000E93522 /* Info.plist */,
+				12C4E4DB1DD83B3F00E93522 /* Rondeh.xcdatamodeld */,
+			);
+			path = Rondeh;
+			sourceTree = "<group>";
+		};
+		12C4E4EB1DD83B4000E93522 /* RondehTests */ = {
+			isa = PBXGroup;
+			children = (
+				12C4E4EC1DD83B4000E93522 /* RondehTests.swift */,
+				12C4E4EE1DD83B4000E93522 /* Info.plist */,
+			);
+			path = RondehTests;
+			sourceTree = "<group>";
+		};
+		12C4E4F61DD83B4000E93522 /* RondehUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12C4E4F71DD83B4000E93522 /* RondehUITests.swift */,
+				12C4E4F91DD83B4000E93522 /* Info.plist */,
+			);
+			path = RondehUITests;
+			sourceTree = "<group>";
+		};
+		ABF446E915B2CCB3379B941F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8990C65FF23C85CEB6E37AFE /* Pods-Rondeh.debug.xcconfig */,
+				4CF0B5B905DDA7A0824FA8F1 /* Pods-Rondeh.release.xcconfig */,
+				0F2A5A22AF631CA66F7ED031 /* Pods-RondehTests.debug.xcconfig */,
+				5C6790A91B7D41F98F7A411B /* Pods-RondehTests.release.xcconfig */,
+				97A09B2332BFC5AB68BA0B60 /* Pods-RondehUITests.debug.xcconfig */,
+				776405DB6152039AD79FEF8E /* Pods-RondehUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E5F8A6BE4E7B9DFBF0EA2DD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35FB40C45B099A31FCD46695 /* Pods_Rondeh.framework */,
+				5F6F4411BC399E4942C93948 /* Pods_RondehTests.framework */,
+				8C961D742BE835E12611D313 /* Pods_RondehUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12C4E4D01DD83B3F00E93522 /* Rondeh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12C4E4FC1DD83B4000E93522 /* Build configuration list for PBXNativeTarget "Rondeh" */;
+			buildPhases = (
+				9C6CCC7042ECEA2B911A735C /* [CP] Check Pods Manifest.lock */,
+				12C4E4CD1DD83B3F00E93522 /* Sources */,
+				12C4E4CE1DD83B3F00E93522 /* Frameworks */,
+				12C4E4CF1DD83B3F00E93522 /* Resources */,
+				B6A9A35B24CCA494ACD47463 /* [CP] Embed Pods Frameworks */,
+				440617B5D260A5274413C123 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rondeh;
+			productName = Rondeh;
+			productReference = 12C4E4D11DD83B3F00E93522 /* Rondeh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12C4E4E71DD83B4000E93522 /* RondehTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12C4E4FF1DD83B4000E93522 /* Build configuration list for PBXNativeTarget "RondehTests" */;
+			buildPhases = (
+				BDC58928CBDC073E413CE7DE /* [CP] Check Pods Manifest.lock */,
+				12C4E4E41DD83B4000E93522 /* Sources */,
+				12C4E4E51DD83B4000E93522 /* Frameworks */,
+				12C4E4E61DD83B4000E93522 /* Resources */,
+				DB90D710DC5A125ABF24C6A6 /* [CP] Embed Pods Frameworks */,
+				B4D22018FA5EC669EDE3CFC6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12C4E4EA1DD83B4000E93522 /* PBXTargetDependency */,
+			);
+			name = RondehTests;
+			productName = RondehTests;
+			productReference = 12C4E4E81DD83B4000E93522 /* RondehTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12C4E4F21DD83B4000E93522 /* RondehUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12C4E5021DD83B4000E93522 /* Build configuration list for PBXNativeTarget "RondehUITests" */;
+			buildPhases = (
+				CB036171F333C0614AB40ABF /* [CP] Check Pods Manifest.lock */,
+				12C4E4EF1DD83B4000E93522 /* Sources */,
+				12C4E4F01DD83B4000E93522 /* Frameworks */,
+				12C4E4F11DD83B4000E93522 /* Resources */,
+				6D12110F3C875C1FE897861D /* [CP] Embed Pods Frameworks */,
+				F02DFF22514EC9D06E9C209F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12C4E4F51DD83B4000E93522 /* PBXTargetDependency */,
+			);
+			name = RondehUITests;
+			productName = RondehUITests;
+			productReference = 12C4E4F31DD83B4000E93522 /* RondehUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12C4E4C91DD83B3F00E93522 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Michael Zhou";
+				TargetAttributes = {
+					12C4E4D01DD83B3F00E93522 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = F2YZV7X9H6;
+						ProvisioningStyle = Automatic;
+					};
+					12C4E4E71DD83B4000E93522 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = F2YZV7X9H6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 12C4E4D01DD83B3F00E93522;
+					};
+					12C4E4F21DD83B4000E93522 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = F2YZV7X9H6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 12C4E4D01DD83B3F00E93522;
+					};
+				};
+			};
+			buildConfigurationList = 12C4E4CC1DD83B3F00E93522 /* Build configuration list for PBXProject "Rondeh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12C4E4C81DD83B3F00E93522;
+			productRefGroup = 12C4E4D21DD83B3F00E93522 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12C4E4D01DD83B3F00E93522 /* Rondeh */,
+				12C4E4E71DD83B4000E93522 /* RondehTests */,
+				12C4E4F21DD83B4000E93522 /* RondehUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12C4E4CF1DD83B3F00E93522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C4E4E21DD83B4000E93522 /* LaunchScreen.storyboard in Resources */,
+				12C4E4DF1DD83B4000E93522 /* Assets.xcassets in Resources */,
+				12C4E4DA1DD83B3F00E93522 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C4E4E61DD83B4000E93522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C4E4F11DD83B4000E93522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		440617B5D260A5274413C123 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rondeh/Pods-Rondeh-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D12110F3C875C1FE897861D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RondehUITests/Pods-RondehUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C6CCC7042ECEA2B911A735C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B4D22018FA5EC669EDE3CFC6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RondehTests/Pods-RondehTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6A9A35B24CCA494ACD47463 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rondeh/Pods-Rondeh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDC58928CBDC073E413CE7DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CB036171F333C0614AB40ABF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB90D710DC5A125ABF24C6A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RondehTests/Pods-RondehTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F02DFF22514EC9D06E9C209F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RondehUITests/Pods-RondehUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12C4E4CD1DD83B3F00E93522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C4E4DD1DD83B3F00E93522 /* Rondeh.xcdatamodeld in Sources */,
+				12C4E4D71DD83B3F00E93522 /* ViewController.swift in Sources */,
+				12C4E4D51DD83B3F00E93522 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C4E4E41DD83B4000E93522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C4E4ED1DD83B4000E93522 /* RondehTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C4E4EF1DD83B4000E93522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C4E4F81DD83B4000E93522 /* RondehUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12C4E4EA1DD83B4000E93522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12C4E4D01DD83B3F00E93522 /* Rondeh */;
+			targetProxy = 12C4E4E91DD83B4000E93522 /* PBXContainerItemProxy */;
+		};
+		12C4E4F51DD83B4000E93522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12C4E4D01DD83B3F00E93522 /* Rondeh */;
+			targetProxy = 12C4E4F41DD83B4000E93522 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12C4E4D81DD83B3F00E93522 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12C4E4D91DD83B3F00E93522 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12C4E4E01DD83B4000E93522 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12C4E4E11DD83B4000E93522 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12C4E4FA1DD83B4000E93522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12C4E4FB1DD83B4000E93522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12C4E4FD1DD83B4000E93522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8990C65FF23C85CEB6E37AFE /* Pods-Rondeh.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F2YZV7X9H6;
+				INFOPLIST_FILE = Rondeh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = funfinder.Rondeh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		12C4E4FE1DD83B4000E93522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CF0B5B905DDA7A0824FA8F1 /* Pods-Rondeh.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F2YZV7X9H6;
+				INFOPLIST_FILE = Rondeh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = funfinder.Rondeh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		12C4E5001DD83B4000E93522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F2A5A22AF631CA66F7ED031 /* Pods-RondehTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F2YZV7X9H6;
+				INFOPLIST_FILE = RondehTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = funfinder.RondehTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rondeh.app/Rondeh";
+			};
+			name = Debug;
+		};
+		12C4E5011DD83B4000E93522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C6790A91B7D41F98F7A411B /* Pods-RondehTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F2YZV7X9H6;
+				INFOPLIST_FILE = RondehTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = funfinder.RondehTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rondeh.app/Rondeh";
+			};
+			name = Release;
+		};
+		12C4E5031DD83B4000E93522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97A09B2332BFC5AB68BA0B60 /* Pods-RondehUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = F2YZV7X9H6;
+				INFOPLIST_FILE = RondehUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = funfinder.RondehUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Rondeh;
+			};
+			name = Debug;
+		};
+		12C4E5041DD83B4000E93522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 776405DB6152039AD79FEF8E /* Pods-RondehUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = F2YZV7X9H6;
+				INFOPLIST_FILE = RondehUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = funfinder.RondehUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Rondeh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12C4E4CC1DD83B3F00E93522 /* Build configuration list for PBXProject "Rondeh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C4E4FA1DD83B4000E93522 /* Debug */,
+				12C4E4FB1DD83B4000E93522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12C4E4FC1DD83B4000E93522 /* Build configuration list for PBXNativeTarget "Rondeh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C4E4FD1DD83B4000E93522 /* Debug */,
+				12C4E4FE1DD83B4000E93522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12C4E4FF1DD83B4000E93522 /* Build configuration list for PBXNativeTarget "RondehTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C4E5001DD83B4000E93522 /* Debug */,
+				12C4E5011DD83B4000E93522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12C4E5021DD83B4000E93522 /* Build configuration list for PBXNativeTarget "RondehUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C4E5031DD83B4000E93522 /* Debug */,
+				12C4E5041DD83B4000E93522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		12C4E4DB1DD83B3F00E93522 /* Rondeh.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				12C4E4DC1DD83B3F00E93522 /* Rondeh.xcdatamodel */,
+			);
+			currentVersion = 12C4E4DC1DD83B3F00E93522 /* Rondeh.xcdatamodel */;
+			path = Rondeh.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 12C4E4C91DD83B3F00E93522 /* Project object */;
+}
