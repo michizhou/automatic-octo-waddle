@@ -1,0 +1,15 @@
+0.  It is an English word referring to a "lung disease caused by inhaling fine sand and ash dust" that is also the longest word in the English language.
+1.  getrusage() returns information on all the resources used by the current process, or all of the terminated child processes.
+2.  There are 16 members in a variable of type struct rusage.
+3.  If we pass both of them by reference, we know the actual values for "before" and "after" are used, rather than copies, which may have different values. 
+4.  Main works by reading one character at a time until the character being read is not alphabetical or the maximum word length is reached. If the non-
+    alphabetical character is a number, then the word is tossed. If the non-alphabetical character is something else (i.e. a space), then the word is 
+    declared a word, terminated with a null operator, and passed to check(). Beyond that, the loop just continues until the EOF character is reached.
+5.  If we were to use fscanf alone, we wouldn't be able to account for strings with digits in them. This way, by pulling characters one at a time,
+    if we pull a digit, we can immediately ignore the rest of the word.
+6.  const makes it so that check and load cannot be changed. That is, they cannot be modified by the function. I also can't change the word being passed in.
+7.  I used a trie as my main data structure. This meant creating a tree of nodes, each of which consisted of a boolean value indicating the end of a word 
+    as well as an array of pointers to subsequent children nodes (type node*).
+8.  The first I got the program working, it took about 0.14 seconds slower than it is now, since unload() and load() were relatively slow.
+9.  I rewrote the code governing the functions unload() and load(), making it more efficient by simplifying operations and removing any code redundancies. 
+10. There aren't really any bottlenecks within the code for my spell checker program in terms of speed and performance, not even in the trie data structure.

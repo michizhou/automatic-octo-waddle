@@ -1,0 +1,30 @@
+0.  BMP supports variable numbers of color, depending on the number of bits specified; most common is 24-bit, or 16.7 million colors. 
+    PNG and JPEG formats can support 24-bit color depth, which allows for 16.7 million colors.
+    GIF file format can only support 256 colors at most.   
+1.  GIF file format
+2.  Lossy compression: makes images smaller with worse quality
+    Lossless compression: makes images smaller with same quality
+3.  JPEG file format
+4.  First, system modifies the file name's first character in file's directory entry to show that file has been deleted;
+    Second, system moves all of file's FAT clusters to hard drive's list of free clusters; the actual file data is never touched
+5.  Overwrite the data on the drive so that it cannot be recovered; degauss the drive to randomize the magnetic domains
+6.  stdint.h is a header file that defines sets of integer types that have specified width requirements,
+    as well as macros that specify their limits and macro functions that create values of these types.
+7.  They can be used as types that will specify the width of any integer used with a type in bits, specifically nonnegative numbers.
+8.  BYTE has 8 bits, which is equal to 1 byte;
+    DWORD has 32 bits, which is 4 bytes;
+    LONG has signed 32 bits, which is 4 bytes;
+    WORD has 16 bits, which is equal to 2 bytes
+9.  The first two bytes of any BMP file are in ASCII, since they specify the file type with the signature word BM.
+10. bfSize specifies the size, in bytes, of the bitmap file, while biSize specifies the size of the structure, in bytes.
+11. If biHeight is negative, then the bitmap is a top-down DIB and its origin is the upper left corner.
+12. biBitCount specifies the BMP file's color depth.
+13. There might not be enough memory or disk space to store the new file, or the function can't find the file.
+14. The function fread always reads nmemb elements of data, each some size bytes long from the stream pointed by the stream and
+    stores them at the location given by ptr. Since there is only 1 BITMAPFILEHEADER in any BMP, fread should only read 1 data set.
+15. The padding would have a value of 3, since 3 pixels * 3 bytes per pixel = 9, or 1 with % 4, leaving 4-1 = 3, which is 3 with % 4.
+16. fseek moves to a specific location in a file and sets the file position indicator for the inptr pointed to by inptr; 
+    the new position, measured in bytes, is determined by adding padding bytes to the position specified by whence.
+17. It is an integer constant which, whenever used as the "whence" argument in the fseek function, will specify that the offset 
+    provided will be relative to the current file position.
+18. Milo Banana
