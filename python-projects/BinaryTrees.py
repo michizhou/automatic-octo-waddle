@@ -244,7 +244,7 @@ def invertTree(bin_tree):
         return None
     left_tree = invertTree(LinkedBinaryTree(bin_tree.root.left))
     right_tree = invertTree(LinkedBinaryTree(bin_tree.root.right))
-    bin_tree.root.left, bin_tree.right = right_tree.root, left_tree.root
+    bin_tree.root.left, bin_tree.root.right = right_tree.root, left_tree.root
     return bin_tree
 
 # BFS implementation for inverting a binary tree
